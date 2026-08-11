@@ -144,6 +144,29 @@ footer{
     display:inline-block;
     margin:5px;
   }
+}.ad-banner{
+  background:#0b63ce;
+  color:white;
+  overflow:hidden;
+  padding:10px 0;
+  white-space:nowrap;
+  font-weight:bold;
+}
+
+.ad-banner a{
+  color:white;
+  text-decoration:none;
+}
+
+.ad-text{
+  display:inline-block;
+  padding-left:100%;
+  animation:admove 15s linear infinite;
+}
+
+@keyframes admove{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-100%);}
 }
 </style>
 </head>
